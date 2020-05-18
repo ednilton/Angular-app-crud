@@ -1,0 +1,109 @@
+# Dependencias de instalação do Projeto Crud Angular
+
+# Criar o Package.json
+npm init -y  
+
+# Start Backend Server 
+npm start
+
+# Command Line Interface use sudo para instalar e criar projetos para o angular
+
+# Intalando o angular cli
+sudo npm i -g @angular/cli
+
+# Observando as opções de help para utilizar o ng
+ng + Enter
+
+### NG Help
+  add Adds support for an external library to your project.
+  analytics Configures the gathering of Angular CLI usage metrics. See https://angular.io/cli/usage-analytics-gathering.
+  build (b) Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+  deploy Invokes the deploy builder for a specified project or for the default project in the workspace.
+  config Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  doc (d) Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.
+  e2e (e) Builds and serves an Angular app, then runs end-to-end tests using Protractor.
+  generate (g) Generates and/or modifies files based on a schematic.
+  help Lists available commands and their short descriptions.
+  lint (l) Runs linting tools on Angular app code in a given project folder.
+  new (n) Creates a new workspace and an initial Angular app.
+  run Runs an Architect target with an optional custom builder configuration defined in your project.
+  serve (s) Builds and serves your app, rebuilding on file changes.
+  test (t) Runs unit tests in a project.
+  update Updates your application and its dependencies. See https://update.angular.io/
+  version (v) Outputs Angular CLI version.
+  xi18n (i18n-extract) Extracts i18n messages from source code.
+
+  ####
+
+# Criando o app
+ng new frontend --minimal 
+    o console de criacao do app vai perguntar: 
+        rotas: yes
+        preprocessadores Sass: no // trabalhe com css puro 
+
+# inicializando o app 
+npm start
+
+// ele irá inicializar o serviço numa porta padrão 4200
+
+# Documentação Angular: https://angular.io/cli
+
+# Configurando o frontend: 
+
+# angular.json alterações
+
+// para usar o css proprio e separado do html
+"inlineTemplate": false,
+"inlineStyle": false, 
+
+# Instando dependencia do Material Design
+ng add @angular/material
+
+# Selecionar o Template.
+
+# Gerando um componente | g = generate | c = component | caminho 
+# já registra o componente dentro do app module
+ng g c components/template/header
+
+# Gerando o footer component
+# ng g c components/template/footer
+
+# Gerando o componente de Navegação
+ng g c components/template/nav
+
+# Gerando o componete de views/home
+ng g c components/template/views/home
+
+# Gerando o componente de views/product-crud
+ng g c views/product-crud
+
+# Criando Diretivas de Atributo
+ ng g d directives/red
+
+# Criando Diretivas Estrutural
+ng g d directives/for
+
+# Criando o components/product/product-create
+ng g c components/product/product-create
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

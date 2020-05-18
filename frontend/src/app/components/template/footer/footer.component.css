@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    background-color:#eeeeee;
+    color:#555;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.footer span{ 
+    font-size: 1.1rem;
+    font-weight: 300;
+}

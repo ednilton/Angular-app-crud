@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20",
+      "price": 5000
+    },
+    {
+      "name": "Banana",
+      "price": 28.33,
+      "id": 5
+    },
+    {
+      "name": "Abacate",
+      "price": "3.50",
+      "id": 7
+    },
+    {
+      "name": "Cereja",
+      "price": "19.90",
+      "id": 8
+    },
+    {
+      "name": "repolho",
+      "price": "13.00",
+      "id": 12
+    },
+    {
+      "name": "Batata Frita",
+      "price": "22.00",
+      "id": 13
+    },
+    {
+      "name": "Manteigaa",
+      "price": "22.32",
+      "id": 14
+    },
+    {
+      "name": "test",
+      "price": "22.33",
+      "id": 15
+    },
+    {
+      "name": "Pizza",
+      "price": "22.30",
+      "id": 16
+    }
+  ]
+}

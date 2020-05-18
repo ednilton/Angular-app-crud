@@ -1,0 +1,38 @@
+ul {
+    color: #333333;
+    background-color: #FFF;
+
+}
+
+table {
+    width: 100%;
+}
+
+.edit {
+    margin-right: 10px;
+}
+
+.edit > i {
+    color:rgb(241, 199, 13);
+}
+
+.delete > i {
+    color: rgb(240, 57, 11);
+}
+
+.sp {
+    padding-top: 30px;
+}
+
+.tableList {
+    margin-top: 20px;
+    background-color: #ffff;
+ }
+
+ th {
+     color: #333333;
+ }
+ td {
+    color: #333333;
+    border-bottom: #eeeeee 1px;
+ }
